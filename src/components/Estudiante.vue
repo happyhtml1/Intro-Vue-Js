@@ -1,9 +1,10 @@
 <template>
   <div class="hello">
-      <h1>{{ InfoPersonal }}</h1>
+<hr>
+    <h1>{{ InfoPersonal }}</h1>
     <h3>{{ Nombre }}</h3>
     <h3>{{ Rut }}</h3>
-   
+   <hr>
   </div>
 </template>
 

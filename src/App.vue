@@ -1,9 +1,12 @@
 <template>
   <div id="app">
+
     <img alt="Vue logo" src="./assets/logo.png">
     <Estudiante/>
     <Profesional/>
     <Curso infoCurso="Información del Curso" msg="FrontEnd" msg2="Gen 3" msg3="13-01-2020"/>
+    <link href="https://fonts.googleapis.com/css?family=Bellota|Francois+One&display=swap" rel="stylesheet">
+
   </div>
 </template>
 
@@ -23,17 +26,21 @@ export default {
 </script>
 
 <style>
+
 body{
-  background-image: url(../public/imagen1.jpg);
+  background-image: url('./assets/imagen2.jpg');
   background-size: cover;
+  font-family: 'Bellota', cursive;
+
   
 }
+hr{
+  border-color: red ;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 </style>

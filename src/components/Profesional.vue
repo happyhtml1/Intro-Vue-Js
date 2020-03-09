@@ -4,7 +4,7 @@
     <h3>{{ trabajoActual }}</h3>
     <h3>{{ profesion }}</h3>
     <h3>{{ fechaInicio }}</h3>
-   
+   <hr>
   </div>
 </template>
 
@@ -27,6 +27,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+body{
+  border-color: 2px solid pink;
+font-family: 'Bellota', cursive;
+}
+
 h3 {
   margin: 40px 0 0;
 }

@@ -4,7 +4,7 @@
     <h3>{{ msg }}</h3>
     <h3>{{ msg2 }}</h3>
     <h3>{{ msg3 }}</h3>
-   
+   <hr>
   </div>
 </template>
 
